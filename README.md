@@ -2,19 +2,19 @@
 We aimed to provide an idea from the original [EDSR](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Lim_Enhanced_Deep_Residual_CVPR_2017_paper.pdf) baseline paper and provide possible enhancement in the model of the EDSR by comparing PSNR values. Our framework includes 1) Studies on various kernel sizes on EDSR baseline model to show impact of different kernel sizes in performance. 2) We introduce a residual block with attention mechanism which showed decent improvement in the PSNR value from the original EDSR baseline paper.
 
 # Dataset
-We used the [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) for training which can be downloaded from [here](). We also used standard datasets [Set5](http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html), [Set14](https://sites.google.com/site/romanzeyde/research-interests), [B100](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/), and [Urban100](https://sites.google.com/site/jbhuang0604/publications/struct_sr) to evaluate our architecture. These datasets can be downloaded from [here]() Set the --dir_data in the src/option.py to your directory that holds the DIV2K dataset for training or the benchmark datasets for evaluation.
+We used the [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) for training which can be downloaded from [here](https://drive.google.com/file/d/1qhNjHjfiDI1Eao5AD0fmcZeYsvQhfSUc/view?usp=sharing). We also used standard datasets [Set5](http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html), [Set14](https://sites.google.com/site/romanzeyde/research-interests), [B100](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/), and [Urban100](https://sites.google.com/site/jbhuang0604/publications/struct_sr) to evaluate our architecture. These datasets can be downloaded from [here](https://drive.google.com/file/d/1fAIQQZWuLGpBFx7jrpDuriDB1_7QGb2M/view?usp=sharing) Set the --dir_data in the src/option.py to your directory that holds the DIV2K dataset for training or the benchmark datasets for evaluation.
 
 # Models
-Our models can be downloaded from [here]() The kernel models provided are for (x4) scale from scratch. You can train with x2 and pretrain x4 with x2 scale.
+Our models can be downloaded from [here](https://drive.google.com/file/d/1_2A4NFuI5SZykVWz7UPz1PsObm4FvVHA/view?usp=sharing) The kernel models provided are for (x4) scale from scratch. You can train with x2 and pretrain x4 with x2 scale. We trained the EDSR baseline models ourselves but you can also used the pretrained models from [here](https://cv.snu.ac.kr/research/EDSR/model_pytorch.tar).
 
 # Requirements
-Torch >= 1.0.0
-imageio
-Python 3.6
-numpy
-skimage
-matplotlib
-tqdm
+* Torch >= 1.0.0
+* imageio
+* Python 3.6
+* numpy
+* skimage
+* matplotlib
+* tqdm
 
 # Training the Model
 Change the dir_data argument in src/option.py to the place where DIV2K images are located.
