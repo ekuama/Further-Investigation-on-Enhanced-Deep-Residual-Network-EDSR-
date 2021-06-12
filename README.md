@@ -1,0 +1,2 @@
+# Further-Investigation-on-Enhanced-Deep-Residual-Network-EDSR-
+we aimed to provide an idea from the original EDSR baseline paper and provide possible enhancement in the model of the EDSR by comparing PSNR values. Our framework includes 1) Studies on various kernel sizes on EDSR baseline model to show impact of different kernel sizes in performance. 2) We introduce a residual block with attention mechanism which showed decent improvement in the PSNR value from the original EDSR baseline paper.
