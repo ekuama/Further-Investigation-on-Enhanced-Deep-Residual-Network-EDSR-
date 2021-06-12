@@ -27,7 +27,7 @@ You can train EDSR and MODEL by yourself.The scripts are provided in the src/dem
 Model |	X2|	X4	|X8
 ------|---|-----|---
 EDSR baseline (paper)|	34.674dB |	28.987dB |	25.308dB
-Attention block |	34.725dB |	29.120dB |	25.407
+Attention block |	34.725dB |	29.120dB |	25.407dB
 ----------------------------------------------------------
 Head Kernel Studies
 Model |X4	
