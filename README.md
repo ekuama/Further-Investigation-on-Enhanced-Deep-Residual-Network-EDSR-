@@ -1,6 +1,8 @@
 # Further-Investigation-on-Enhanced-Deep-Residual-Network-EDSR-
 We aimed to provide an idea from the original [EDSR](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Lim_Enhanced_Deep_Residual_CVPR_2017_paper.pdf) baseline paper and provide possible enhancement in the model of the EDSR by comparing PSNR values. Our framework includes 1) Studies on various kernel sizes on EDSR baseline model to show impact of different kernel sizes in performance. 2) We introduce a residual block with attention mechanism which showed decent improvement in the PSNR value from the original EDSR baseline paper.
 
+## Kernel Changes
+
 # Dataset
 We used the [DIV2K](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) for training which can be downloaded from [here](https://drive.google.com/file/d/1qhNjHjfiDI1Eao5AD0fmcZeYsvQhfSUc/view?usp=sharing). We also used standard datasets [Set5](http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html), [Set14](https://sites.google.com/site/romanzeyde/research-interests), [B100](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/), and [Urban100](https://sites.google.com/site/jbhuang0604/publications/struct_sr) to evaluate our architecture. These datasets can be downloaded from [here](https://drive.google.com/file/d/1fAIQQZWuLGpBFx7jrpDuriDB1_7QGb2M/view?usp=sharing) Set the --dir_data in the src/option.py to your directory that holds the DIV2K dataset for training or the benchmark datasets for evaluation.
 
