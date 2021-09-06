@@ -38,13 +38,14 @@ EDSR baseline (paper)|	34.674dB |	28.987dB |	25.308dB
 Attention block |	34.725dB |	29.120dB |	25.407dB
 ----------------------------------------------------------
 Head Kernel Studies
+
 Model |X4	
 ------|---
 EDSR baseline (paper)|28.987dB 
 5x5	|28.994dB
 Three layers (751)|28.976dB
 Three layers (715)|	28.987dB 
--------------------------------
+-----------------------------------------------------------
 Comparison of Implemented Attention Block with EDSR using Benchmark datasets
 
 Dataset	|Scale	|EDSR baseline	|Implemented Mode
